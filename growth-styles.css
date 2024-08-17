@@ -27,14 +27,7 @@ opacity: 0.7;
   }
 }
 
-.input-container{
-  
 
-}
-.input-container img{
-  max-width:100%;
-  filter: blur(1px)
-}
 
 
 
@@ -61,15 +54,13 @@ html{
 nav svg{
  
 }
-
 nav{
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.178);
+  background-color: var(--color1);
   display: flex;
   justify-content:flex-end ;
   align-items: center;
-  backdrop-filter: blur(20px);
-
+  
 }
 .links-container{
   height: 100%;
@@ -83,17 +74,14 @@ nav a{
 height: 100%;
 padding: 0 20px;
 display: flex;
-justify-content: center;
-
 align-items: center;
 text-decoration: none;
-color: var(--color1);
+color: var(--text-color);
 
 }
 
 nav a:hover{
-  background-color: var(--color1);
-  color: var(--text-color);
+  background-color: var(--accent-color);
 }
 
 nav svg{
