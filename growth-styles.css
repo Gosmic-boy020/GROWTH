@@ -49,6 +49,7 @@ opacity: 0.7;
 }
 body{
   padding-bottom: 1000PX;
+  
 }
 html{
   font-size: 12pt;
@@ -68,7 +69,7 @@ nav{
   justify-content:flex-end ;
   align-items: center;
   padding-left: 20px;
-  border-bottom: 1px solid black;
+ 
   position: static;
 }
 .links-container{
@@ -112,6 +113,75 @@ nav a:hover{
 .buttons:hover{
   background-color: var(--text-color);
 }
+.input-container{
+  background-image: url(images-background/magicpattern-mesh-gradient-1723823841880.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.input-container label svg{
+  fill: var(--color1);
+padding-left: 10px;
+width: 40PX;
+  background-color: var(--text-color);
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 1px 1px 30px var(--accent-color);
+  
+}
+
+.input-element{
+  
+  width: max(450px);
+  height: 50px;
+  background-color: var(--text-color);
+  border: 1px solid transparent;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius:50px;
+  color: var(--color1);
+  padding-left: 10PX;
+  box-shadow: 1px 1px 80px var(--accent-color);
+}
+.input-container img{
+  
+}
+.input-element::placeholder{
+  color: var(--color1);
+}
+.input-element:focus{
+  outline: none;
+}
+.text-container{
+ background-image: url(images-background/magicpattern-mesh-gradient-1723823878177.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color: var(--text-color);
+}
+.t-container{
+  margin-top: 30px;
+}
+.industries-cont{
+color: var(--accent-color);
+text-decoration: none;
+margin-left: 10px;
+background-color: rgb(188, 225, 239);
+padding: 10px;
+border-radius: 30px;
+padding-left: 40px;
+padding-right: 40px;
+box-shadow: 1px 1px 20px skyblue;
+
+}
+/* .Heading{
+  margin-left: 33%;
+  font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Heading-1{
+  margin-left: 27%;
+  margin-top: 20px;
+} */
 @media(max-width:1050px){
   h1{
     padding: 0;
@@ -135,7 +205,7 @@ nav a:hover{
       background-color: var(--text-color);
       box-shadow: -5px 0 5px rgba(0, 0, 0,0.25);
       transition: 0.75s ease-in-out;
-      overflow: auto;
+      overflow: scroll;
   }
   nav a{
     box-sizing: border-box;
@@ -171,6 +241,20 @@ nav a:hover{
    
     z-index: 9;
   }
-  
+  .input-element{
+    width:max(300px);
+  }
+ .text-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+ }
+ .text-container h1,h4,p{
+  width:330px;
+  padding: 0;
+ }
+ .businessmen{
+  width: 100%;
+ }
 }
 
