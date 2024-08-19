@@ -114,7 +114,7 @@ nav a:hover{
   background-color: var(--text-color);
 }
 .input-container{
-  background-image: url(magicpattern-mesh-gradient-1723823841880.png);
+  background-image: url(first-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -153,7 +153,7 @@ width: 40PX;
   outline: none;
 }
 .text-container{
- background-image: url(magicpattern-mesh-gradient-1723823878177.png);
+ background-image: url(second-background.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
