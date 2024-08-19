@@ -3,13 +3,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Growth-initial</title>
+  <link rel="icon" href="images-background/letter-g.png">
   <link rel="stylesheet" href="growth-styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
-   .sticky{
+   #header{
     position: fixed;
+    top: 0;
+    width: 100%;
    
     
    }
@@ -18,7 +21,7 @@
 </head>
 <body>
   <nav id="header">
-    <h1 class="text-secondary p-5 ">GRŌWTḤ</h1>
+    <h1 class="text-dark p-5 ">GRŌWTḤ</h1>
     <input type="checkbox" name="" id="sidebar-active">
     <label for="sidebar-active">
      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -37,17 +40,48 @@
       <a href="#" class="buttons" id="btn">
         <button class="btn btn-outline-dark ">Login</button>
       </a>
-      <a href="#" class="buttons">
+      <a href="login-signup/signup.html" class="buttons">
         <button class="btn btn-dark ">Signup</button>
       </a>
     </div>
 
   </nav>
-  <!-- <div class="container-fluid input-container ">
-    <img src="homebg.png" alt="bak" class="image">
-  </div> -->
+
+  <div class="container-fluid  mt-5 input-container">
+    <div class="d-flex flex-column justify-content-center align-items-center pt-5 ">
+      <mark class="rounded mb-1 mt-5"><h1 class="text-secondary px-4 py-2 ">Investing Ka Search Engine</h1></mark>
+    <h4 class="text-dark">The Modern Stock Screener that helps you pick better stocks.</h4>
+    </div>
+    
+    <div class="d-flex justify-content-center align-items-center pt-3">
+      <label for="input"><svg  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></label>
+    <input type="search" id="input" class="input-element" placeholder="Type a company name or Brand/"><br>
+    
+    </div>
+    <div class="d-flex justify-content-center align-items-center container-fliud mt-4">
+      <h4 class="text-light">What's new:</h4>
+      <a href="#" class="industries-cont">ITC</a>
+      <a href="#" class="industries-cont">RELIANCE</a>
+      <a href="#" class="industries-cont">HDFCBANK</a>
+    </div>
+    
+    <img src="homebg.png" alt="bak" class="image container-fluid ">
+    
+  </div>
+
+  <div class="container-fluid d-flex text-container">
+    <div class="col-6 p-5">
+      <h1 class="col-6 text-light">we take your market matters seriously.</h1><br>
+      <h4>so that you don’t have to.</h4><br>
+      <p>Ticker is one of the leading global content providers in the financial information services market. Ticker provides market data, news, expert blogs, and analysis for stocks, forex, commodities, and other asset classes for top BFSI users to corporates and retail users.</p>
+      <a href="#">aboutus</a>
+    </div>
+<img class="businessmen" src="businessmen.png" alt="businessmen" height="100%"
+width="50%">
+  </div>
+
   
-  
+  <h1 style="opacity: 0.2; ">©️:2024:Goli Gowtham</h1>
 </body>
 <script>
   window.onscroll = function() {myFunction()};
